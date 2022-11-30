@@ -2,17 +2,17 @@
 // By Matthew Carlson
 
 // All dimensions are in mm
-MAGSAFE_WIDTH = 55.5; // how width the magsafe puck is
+MAGSAFE_WIDTH = 56.1; // how width the magsafe puck is
 MAGSAFE_DEPTH = 5; // how deep the ring around the magsafe is (towards the phone)
 CORD_THICKNESS = 5; // how thick the magsafe cord is
-RING_THICKNESS = 5; // how thick the ring around the magsafe is
+RING_THICKNESS = 7; // how thick the ring around the magsafe is
 EPSILON = 0.01; 
 BODY_HEIGHT = 35; // how tall the bottom body is
-ARM_LENGTH = 35; // how long the arms are (total)
-ARM_THICKNESS = 5; // how thick each arm is
+ARM_LENGTH = 30; // how long the arms are (total)
+ARM_THICKNESS = 7; // how thick each arm is
 ARM_PERCH_LENGTH = 17; // how long the perch of the arm as (this should be how big the flat part of your monitor is)
 HAND_DEPTH = 6.5; // how far down the hand of the arm hangs down from the perch
-BOTTOM_THICKNESS_FACTOR = 2.0; // how thick the bottom is relative to the ring depth
+BOTTOM_THICKNESS_FACTOR = 1.1; // how thick the bottom is relative to the ring depth
 BODY_WIDTH_FACTOR = 1.1; // how wide the bottom body is relative to the magsafe width
 
 $fn = 128; // turn this down to a lower number if your computer is struggling
